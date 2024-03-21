@@ -1,0 +1,32 @@
+body{
+background-color: lime;
+}
+
+h1{
+color:white;
+background-color: blue;
+}
+
+
+#sketches{
+float: right;
+}
+
+p{
+font-size: 25px;
+padding-top: 10px;
+}
+
+canvas{
+margin-top: 60px;
+border: 2px solid black;
+border-radius: 20px;
+animation-name: animate;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes animate{
+from{box-shadow: 1px 1px 45px blue;}
+to{box-shadow: 1px 1px 45px pink;}
+}
